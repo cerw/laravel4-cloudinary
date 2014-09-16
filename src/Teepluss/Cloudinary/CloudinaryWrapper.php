@@ -44,6 +44,8 @@ class CloudinaryWrapper {
         $this->cloudinary = new Cloudinary;
 
         $this->uploader = new Cloudinary\Uploader;
+        
+        $this->api = new Cloudinary\Api();
 
         $this->config = $config;
 
